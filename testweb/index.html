@@ -1,0 +1,53 @@
+<html>
+  <head>
+    
+    
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+  </head>
+
+<body>
+
+    <h3>Welcome User</h3>
+
+    <div id="login_div" class="main-div">
+      <h3>Login</h3>
+      <input type="email" placeholder="Email..." id="email_field" />
+      <input type="password" placeholder="Password..." id="password_field" />
+  
+      <button onclick="login()">Login to Account</button>
+    </div>
+  
+    <div id="user_div" class="loggedin-div">
+      
+      
+      <button onclick="logout()">Logout</button>
+    </div>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyCVu1wdmWvztAhahVvH_kt_H94Vou-Oyzo",
+    authDomain: "telemedapplication.firebaseapp.com",
+    databaseURL: "https://telemedapplication.firebaseio.com",
+    projectId: "telemedapplication",
+    storageBucket: "telemedapplication.appspot.com",
+    messagingSenderId: "773503889204",
+    appId: "1:773503889204:web:1e840f365640f53d14bf61",
+    measurementId: "G-MEPSB83ZT3"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+  
+</body>
+</html>
+

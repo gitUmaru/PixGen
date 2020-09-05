@@ -9,15 +9,15 @@
 
     <h3>Welcome User</h3>
 
-    <div id="login_div" class="main-div">
+    <div id="loginarea" class="main-div">
       <h3>Login</h3>
-      <input type="email" placeholder="Email..." id="email_field" />
-      <input type="password" placeholder="Password..." id="password_field" />
+      <input type="email" placeholder="Enter Email ID" id="loginwithemail" />
+      <input type="password" placeholder="Enter Password" id="loginwithpass" />
   
       <button onclick="login()">Login to Account</button>
     </div>
   
-    <div id="user_div" class="loggedin-div">
+    <div id="divison_user" class="loggedin-div">
       
       
       <button onclick="logout()">Logout</button>
@@ -46,6 +46,7 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
+<script src="index.js"></script>
 
   
 </body>

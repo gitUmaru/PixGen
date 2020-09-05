@@ -39,6 +39,22 @@ function login(){
 
 }
 
+
+function register(){
+
+  var email = document.getElementById("loginwithemail").value;
+  var password = document.getElementById("loginwithpass").value;
+
+  firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
+    // Handle Errors here.
+    var errorCode = error.code;
+    var errorMessage = error.message;
+    window.alert("Error : " + errorMessage);
+  });
+
+  window.alert("Registered successfully!!");
+ }
+
 function logout(){
   firebase.auth().signOut();
 }

@@ -11,7 +11,7 @@ body {
     font-weight: 700;
   }
   
-  .main-div, .loggedin-div {
+  .main, .after_login {
     width: 20%;
     margin: 0px auto;
     margin-top: 150px;
@@ -19,7 +19,7 @@ body {
     display: none;
   }
   
-  .main-div input {
+  .main input {
     display: block;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -33,11 +33,11 @@ body {
     -moz-transition: 0.3s;
   }
   
-  .main-div input:focus {
+  .main input:focus {
     border: 1px solid #777;
   }
   
-  .main-div button, .loggedin-div button {
+  .main button, .after_login button {
     background: #5d8ffc;
     color: #fff;
     border: 1px solid #5d8ffc;
@@ -50,7 +50,7 @@ body {
     -moz-transition: 0.3s;
   }
   
-  .main-div button:hover, .loggedin-div button:hover {
+  .main button:hover, .after_login button:hover {
     background: #fff;
     color: #5d8ffc;
     border: 1px solid #5d8ffc;

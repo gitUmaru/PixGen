@@ -1,6 +1,6 @@
 # medhacks2020
 
-This project is motivated by a free data set that I found online from the IEEE Biomedical Society, it contains very hard to distinguish image samples of cancer and healthy cells. In this project I hope to build a machine learning model that can accurately classify such images. I want to use both Google's Tensorflow API and the teachable machine website (MobileNet) for quick and easy deployment.
+We have decided to make a web application where clinicians can decide to add and request images of skins lesions from POC.
 
 ## Demo
 

@@ -7,7 +7,11 @@ We have decided to make a web application where clinicians can decide to add and
 
 ## Built with
 - Tensorflow (TF) / TF Keras API
-- React
+- Firebase 
+- HTML
+- CSS
+- JS
+
 
 ## Installation
 

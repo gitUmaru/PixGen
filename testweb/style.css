@@ -19,7 +19,7 @@ body {
     display: none;
   }
   
-  .main input {
+  .main input .after_login input{
     display: block;
     border: 1px solid #ccc;
     border-radius: 5px;

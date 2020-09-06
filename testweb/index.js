@@ -58,3 +58,22 @@ function register(){
 function logout(){
   firebase.auth().signOut();
 }
+
+function uploadImage(){
+  const ref= firebase.storage().ref()
+
+  const file= document.querySelector("#image").files[0]
+
+  const name= new Date()+ '-'+file.name
+  const metadata={
+    contentType: file.type
+  }
+  const task= ref.child(name).put(file,metadata)
+  task.then(snapshot => snapshot.ref.getDownloadURL())
+  .then(url=> {
+    console.log(url)
+    alert("Image is uploaded successfully!")
+    const image= document.querySelector('#imageupload')
+    image.src= url
+  })
+}

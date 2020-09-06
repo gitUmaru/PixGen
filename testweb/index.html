@@ -21,6 +21,11 @@
       
       <div id="welcome_user_print"></div>
       <h1>Patient Details</h1>
+      <input type="file" id="image"> <br/>
+      <img id="imageupload" /> <br/>
+       <br/>
+      <button onclick="uploadImage()">Upload Image</button><br/>
+
       <button onclick="logout()">Logout</button>
     </div>
 
@@ -32,6 +37,7 @@
 
 
 <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-storage.js"></script>
 
 <script>
 

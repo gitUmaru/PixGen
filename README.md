@@ -50,6 +50,7 @@ Then run `python ./style_transfer.py` and `python ./dcgan.py`
 
 
 ![](https://github.com/gitUmaru/PixGen/blob/master/doc_imgs/dcgan4x4.gif?raw=true)
+
 **Figure 3.** DCGAN Image Generation GIF of skin lesions (Black and white)
 
 We won 3<sup>rd</sup> place at John Hopkin's School od Medicine MedHacks 2020

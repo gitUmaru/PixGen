@@ -9,6 +9,7 @@ This issue isn't just limited to COVID-19 though. Turns out, **many other skin c
 The following is an example of atopic dermatitis in an infant with dark skin compared to one with fair skin.
 We have decided to make a web application where clinicians can decide to add and request images of skins lesions from POC.
 ![](https://res.cloudinary.com/devpost/image/fetch/s--6LtOQDI8--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://www.statnews.com/wp-content/uploads/2020/07/Screen-Shot-2020-07-03-at-7.26.08-AM-e1595268565603.png)
+
 **Figure 1.** Atopic dermatitis in an infant with dark skin (left) compared to one with fair skin (right)
 
 ## Demo
